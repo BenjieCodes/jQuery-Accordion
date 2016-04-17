@@ -1,0 +1,43 @@
+$lightBlue: #00DAEC;
+$darkBlue: #00DAEC;
+$colorWhite: #FEFEFE;
+$colorBorder: #00B4C3;
+$colorFont: black;
+
+body {
+  margin: 0 auto;
+  width: 500px;
+  color: $colorWhite;
+  border: 1px solid $colorBorder;
+  color: $colorFont;
+}
+
+
+
+.headers {
+  cursor: hand;
+  margin: 0;
+  background-color: $lightBlue;
+  border: 1px solid $colorBorder;
+  transition: all .25s linear;
+
+  &:hover {
+    background-color: #00C6D6;
+  }
+}
+
+.sections {
+
+
+  &.hide {
+      overflow: hidden;
+      height: 26px;
+    }
+
+}
+
+p {
+  margin: 0;
+  transition: height 1s ease;
+
+}

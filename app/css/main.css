@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  width: 500px;
+  color: #FEFEFE;
+  border: 1px solid #00B4C3;
+  color: black; }
+
+.headers {
+  cursor: hand;
+  margin: 0;
+  background-color: #00DAEC;
+  border: 1px solid #00B4C3;
+  transition: all .25s linear; }
+  .headers:hover {
+    background-color: #00C6D6; }
+
+.sections.hide {
+  overflow: hidden;
+  height: 26px; }
+
+p {
+  margin: 0;
+  transition: height 1s ease; }
+
+/*# sourceMappingURL=main.css.map */
