@@ -19,7 +19,7 @@ body {
   margin: 0;
   background-color: $lightBlue;
   border: 1px solid $colorBorder;
-  transition: all .25s linear;
+
 
   &:hover {
     background-color: #00C6D6;
@@ -27,17 +27,21 @@ body {
 }
 
 .sections {
-
-
-  &.hide {
       overflow: hidden;
-      height: 26px;
+      height: 160px;
+      transition: height 2s ease;
+  &.show {
+
+      height: 27px;
+      overflow: hidden;
     }
+
+
+
 
 }
 
 p {
   margin: 0;
-  transition: height 1s ease;
 
 }

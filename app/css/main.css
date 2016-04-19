@@ -9,17 +9,19 @@ body {
   cursor: hand;
   margin: 0;
   background-color: #00DAEC;
-  border: 1px solid #00B4C3;
-  transition: all .25s linear; }
+  border: 1px solid #00B4C3; }
   .headers:hover {
     background-color: #00C6D6; }
 
-.sections.hide {
+.sections {
   overflow: hidden;
-  height: 26px; }
+  height: 160px;
+  transition: height 2s ease; }
+  .sections.show {
+    height: 27px;
+    overflow: hidden; }
 
 p {
-  margin: 0;
-  transition: height 1s ease; }
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */

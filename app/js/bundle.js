@@ -9856,7 +9856,7 @@ var _jquery2 = _interopRequireDefault(_jquery);
   console.log('clicked');
   var clicked = (0, _jquery2['default'])(this);
   var hideThis = clicked.next('p');
-  clicked.toggleClass('hide');
+  clicked.toggleClass('show');
 });
 
 },{"jquery":1}]},{},[2])
