@@ -12,4 +12,4 @@ Used jaqueery for the first time. Learned a few commands including:
 
 ## Deployment
 
-tiy-abrambenjsongsong-jquery-accordion2.surge.sh
+https://benjiesaccordion.surge.sh
